@@ -123,12 +123,23 @@
   <?php endif; ?>
 
   <div id="page-wrapper"><div id="page">
+      
+      <div id="sidebar-first-wrap">
+        <div class="sidebar-first-top">
+          <?php if ($logo): ?>
+            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
+          <?php endif; ?>
+        </div>
+        
+        <?php print $sidebar_first; ?>
+        
+      </div>
 
+      
+      
     <div id="header"><div class="section clearfix">
 
-      <?php if ($logo): ?>
-        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
-      <?php endif; ?>
+      
 
       <?php if ($site_name || $site_slogan): ?>
         <div id="name-and-slogan">
@@ -160,6 +171,27 @@
 
     <div id="main-wrapper"><div id="main" class="clearfix<?php if ($primary_links || $navigation) { print ' with-navigation'; } ?>">
 
+      <?php if ($primary_links || $navigation): ?>
+        <div id="navigation"><div class="section clearfix">
+
+          <?php print theme(array('links__system_main_menu', 'links'), $primary_links,
+            array(
+              'id' => 'main-menu',
+              'class' => 'links clearfix',
+            ),
+            array(
+              'text' => t('Main menu'),
+              'level' => 'h2',
+              'class' => 'element-invisible',
+            ));
+          ?>
+
+          <?php print $navigation; ?>
+
+        </div></div><!-- /.section, /#navigation -->
+      <?php endif; ?>
+        
+        
       <div id="content" class="column"><div class="section">
 
         <?php if ($mission): ?>
@@ -192,27 +224,8 @@
 
       </div></div><!-- /.section, /#content -->
 
-      <?php if ($primary_links || $navigation): ?>
-        <div id="navigation"><div class="section clearfix">
 
-          <?php print theme(array('links__system_main_menu', 'links'), $primary_links,
-            array(
-              'id' => 'main-menu',
-              'class' => 'links clearfix',
-            ),
-            array(
-              'text' => t('Main menu'),
-              'level' => 'h2',
-              'class' => 'element-invisible',
-            ));
-          ?>
 
-          <?php print $navigation; ?>
-
-        </div></div><!-- /.section, /#navigation -->
-      <?php endif; ?>
-
-      <?php print $sidebar_first; ?>
 
       <?php print $sidebar_second; ?>
 

@@ -8,5 +8,221 @@
 
 body
 {
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size: 12px;
+}
+
+a,
+a:link
+{
+  color: #660000;
+  color: rgba(102, 0, 0, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+  font-family: helvetica, arial, sans-serif;  
+}
+
+h1
+{
   
-} 
+}
+
+h2
+{
+  
+}
+
+h3
+{
+  
+}
+
+h4
+{
+
+}
+
+h5
+{
+  
+}
+
+h6
+{
+  
+}
+
+
+/* general structure */
+
+#page-wrapper,
+.region-page-closure
+{
+  width: 1140px;
+}
+
+#page
+{
+  width: 1140px;
+}
+
+.sidebar-first #content
+{
+  width: 960px;
+/*  margin-right: -1140px;*/
+  margin-right: 0px;
+/*  margin-left: 180px;*/
+margin-left: 0px;
+}
+
+.region-sidebar-first
+{
+/*  margin-right: -180px;*/
+  margin-right: 0px;
+  width: 180px;
+}
+
+#sidebar-first-wrap
+{
+  float: left;
+  width: 180px;
+  
+}
+
+#header
+{
+  float: left;
+  width: 960px;
+}
+
+#main-wrapper
+{
+  float: left;
+  width: 960px;
+}
+
+#navigation
+{
+  float: left;
+  margin-right: 0px;
+  
+}
+
+#footer
+{
+  float: left;
+  width: 100%;
+}
+
+
+
+
+#skip-link,
+#page
+{
+  font-size: 12px;
+  line-height: 18px;
+}
+
+
+/* Header */
+
+
+#site-name a,
+#site-name a:link,
+#site-name a:visited
+{
+  float: right;
+  width: 960px;
+  
+  text-align: right;
+  font-size: 56px;
+  line-height: 60px;
+  font-weight: bold;
+  color: #660000;
+  color: rgba(102, 0, 0, 1);
+
+  font-family: helvetica, arial, sans-serif;  
+}
+
+#site-name a:hover
+{
+  text-decoration: none;
+}
+
+#site-slogan
+{
+  float: right;
+  width: 960px;
+  
+  text-align: right;
+  font-size: 40px;
+  font-weight: 200;
+  color: #7f7f7f;
+  color: rgba(127, 127, 127, 1);
+
+  font-family: helvetica, arial, sans-serif;
+}
+
+
+
+
+/* Sidebar first */
+
+.region-sidebar-first
+{
+  
+}
+
+.region-sidebar-first .block
+{
+  margin: 15px 0px;
+}
+
+.region-sidebar-first .block h2.title
+{
+  color: #660000;
+  color: rgba(102, 0, 0, 1);
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.region-sidebar-first .block ul li a,
+.region-sidebar-first .block ul li a:link,
+.region-sidebar-first .block ul li a:visited
+{
+  color: #7f7f7f;
+  color: rgba(127, 127, 127, 1);
+  text-decoration: none;
+}
+
+.region-sidebar-first .block ul li a:hover
+{
+  text-decoration: underline;
+}
+
+.region-sidebar-first .block ul
+{
+  padding: 0px 0px 0px 10px;
+  margin: 10px 0px 10px 5px;
+  border-width: 0px 0px 0px 1px;
+  border-style: solid;
+  border-color: #660000;
+  border-color: rgba(102, 0, 0, 1);
+  
+  list-style: none;
+  list-style-image: none;
+}
+
+.region-sidebar-first .block ul li
+{
+  list-style: none;
+  list-style-image: none;
+}
