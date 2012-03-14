@@ -171,7 +171,7 @@
 
 <!--     <div id="main-wrapper"> -->
       <div id="main" class="clearfix<?php if ($primary_links || $navigation) { print ' with-navigation'; } ?>">
-
+      <div id="navigation-wrapper">
       <?php if ($primary_links || $navigation): ?>
         <div id="navigation"><div class="section clearfix">
 
@@ -191,7 +191,7 @@
 
         </div></div><!-- /.section, /#navigation -->
       <?php endif; ?>
-        
+      </div>
         
       <div id="content" class="column"><div class="section">
 
