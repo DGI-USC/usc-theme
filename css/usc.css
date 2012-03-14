@@ -67,7 +67,7 @@ h6
 {
   margin-left: -200px;
   margin-right: -960px;
-  width: 760px;
+  width: 780px;
   margin-top: 20px;
 }
 
@@ -263,7 +263,7 @@ ul.secondary a
 .view-id-featured_content .view-content
 {
   float: left;
-  width: 100%;
+  width: 740px;
   margin: 0px 0px 20px 0px;
 }
 
@@ -279,7 +279,7 @@ ul.secondary a
 .view-id-featured_content .views-field-nothing
 {
   float: right;
-  width: 350px;
+  width: 360px;
 }
 
 .views-field-nothing .view-title,
@@ -297,7 +297,7 @@ ul.secondary a
 .view-id-featured_content.view-display-id-page_1 .views-row
 {
   float: left;
-  width: 720px;
+  width: 100%;
   margin: 0px 0px 20px 0px;
 
   background: #eee;
