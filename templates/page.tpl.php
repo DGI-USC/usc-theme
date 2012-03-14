@@ -169,7 +169,8 @@
 
     </div></div><!-- /.section, /#header -->
 
-    <div id="main-wrapper"><div id="main" class="clearfix<?php if ($primary_links || $navigation) { print ' with-navigation'; } ?>">
+<!--     <div id="main-wrapper"> -->
+      <div id="main" class="clearfix<?php if ($primary_links || $navigation) { print ' with-navigation'; } ?>">
 
       <?php if ($primary_links || $navigation): ?>
         <div id="navigation"><div class="section clearfix">
@@ -229,7 +230,8 @@
 
       <?php print $sidebar_second; ?>
 
-    </div></div><!-- /#main, /#main-wrapper -->
+<!--     </div> -->
+    </div><!-- /#main, /#main-wrapper -->
 
     <?php if ($footer || $footer_message || $secondary_links): ?>
       <div id="footer"><div class="section">
