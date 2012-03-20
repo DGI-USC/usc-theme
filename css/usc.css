@@ -246,12 +246,25 @@ ul.secondary a
 
 
 
+/* Content top blocks */
+
+.region-content-top .block
+{
+  float: left;
+  width: 740px;
+}
+
+
+
+
 /* Featured content Block + Page */
 
 #block-views-featured_content-block_1
 {
   background: #eee;
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
+  
+
 }
 
 .view-id-featured_content
@@ -263,8 +276,9 @@ ul.secondary a
 {
   float: left;
   width: 740px;
-  margin: 0px 0px 20px 0px;
+  margin: 0px 0px 10px 0px;
 }
+
 
 .view-id-featured_content .views-field-field-image-fid
 {
@@ -283,13 +297,35 @@ ul.secondary a
 
 .views-field-nothing .view-title,
 .views-field-nothing .view-description,
-.views-field-nothing .view-collection
+.views-field-nothing .view-collection,
+.views-field-nothing .views-field-nothing-1
 {
   float: left;
   margin: 0px 0px 5px 0px;
 }
 
+.views-field-nothing .view-collection
+{
+  width: auto;
+  float: left;
+}
+.views-field-nothing .view-all
+{
+  width: auto;
+  float: left;
+}
 
+.views-field-nothing .view-separator
+{
+  width: auto;
+  float: left;
+  margin: 0px 7px;
+}
+
+.view-id-featured_content ul.pager 
+{
+  margin: 0px 0px 0px 0px;
+}
 
 
 
@@ -308,4 +344,13 @@ ul.secondary a
   margin: 5px 0px;
 }
 
+.view-id-featured_content.view-display-id-page_1 .view-content
+{
+  margin: 0px 0px 20px 0px;
+}
+
+.view-id-featured_content .item-list
+{
+
+}
 
