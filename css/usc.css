@@ -61,6 +61,34 @@ h6
 }
 
 
+
+
+table
+{
+  width: 100%;
+}
+
+table tr
+{
+  
+}
+
+table tr th,
+table tr td
+{
+  padding: 7px;
+}
+
+table tr td
+{
+/*   vertical-align: top; */
+}
+
+
+
+
+
+
 /* general structure */
 
 .sidebar-first #content
@@ -352,5 +380,15 @@ ul.secondary a
 .view-id-featured_content .item-list
 {
 
+}
+
+
+
+/* Object page */
+
+.section-fedora .usc-mirc-metadata
+{
+  margin: 1em 0 1em 10px;
+  width: 258px;
 }
 
