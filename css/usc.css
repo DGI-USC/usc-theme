@@ -392,3 +392,57 @@ ul.secondary a
   width: 258px;
 }
 
+
+.section-fedora ul.usc-collection-view
+{
+  float: left;
+  width: 100%;
+  list-style: none;
+  list-style-image: none;
+}
+
+.section-fedora ul.usc-collection-view li
+{
+  float: left;
+  width: 33%;
+  height: 220px;
+  list-style: none;
+  list-style-image: none;
+  
+}
+
+.section-fedora ul.usc-collection-view li a
+{
+  float: left;
+  width: 200px;
+  
+}
+
+.section-fedora ul.usc-collection-view li a.item-title-text
+{
+
+}
+
+.section-fedora .collection-metadata img
+{
+  float: right;
+  margin: 0px 0px 20px 20px;
+}
+
+.section-fedora .collection-metadata .form-item
+{
+
+}
+
+.section-fedora .collection-metadata fieldset .form-item
+{
+
+}
+
+.section-fedora .collection-metadata fieldset ul
+{
+  float: left;
+  width: 350px;
+}
+
+
