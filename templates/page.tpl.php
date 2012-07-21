@@ -139,27 +139,7 @@
       
     <div id="header"><div class="section clearfix">
 
-      
-
-      <?php if ($site_name || $site_slogan): ?>
-        <div id="name-and-slogan">
-          <?php if ($site_name): ?>
-            <?php if ($title): ?>
-              <div id="site-name"><strong>
-                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-              </strong></div>
-            <?php else: /* Use h1 when the content title is empty */ ?>
-              <h1 id="site-name">
-                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-              </h1>
-            <?php endif; ?>
-          <?php endif; ?>
-
-          <?php if ($site_slogan): ?>
-            <div id="site-slogan"><?php print $site_slogan; ?></div>
-          <?php endif; ?>
-        </div><!-- /#name-and-slogan -->
-      <?php endif; ?>
+      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="mirc-logo"></a>
 
       <?php if ($search_box): ?>
         <div id="search-box"><?php print $search_box; ?></div>
@@ -203,7 +183,7 @@
 
         <?php print $breadcrumb; ?>
         <?php if ($title): ?>
-          <h1 class="title"><?php print $title; ?></h1>
+            <h1 class="title"></h1>
         <?php endif; ?>
         <?php print $messages; ?>
         <?php if ($tabs): ?>

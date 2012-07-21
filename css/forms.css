@@ -8,6 +8,7 @@
 .form-checkboxes,
 .form-radios /* Wrapper for a form element (or group of form elements) and its label */ {
   margin: 1em 0;
+  line-height: normal;
 }
 
 .form-item input.error,
@@ -19,6 +20,8 @@
 .form-item label /* The label for a form element */ {
   display: block;
   font-weight: bold;
+  line-height: normal;
+
 }
 
 .form-item label.option /* The label for a radio button or checkbox */ {
